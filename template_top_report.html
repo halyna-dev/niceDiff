@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>niceDiff Report</title>
+    <meta charset="utf-8">
+    <meta http-equiv=Content-Type content="text/html;charset=utf-8">
+    <meta name="keywords" contect="niceDiff, reporters">
+    <meta name="author" contect="halyna-dev">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon"
+          href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAHX0lEQVR4Xu2bfWwUVRDAZ/buSsG0Vxq1EAhtL/e2kKISAVEoKJVE4gfiR6wmJsoflpBANLZKqyRIgVg+/CLBNqKoMX5RKWhFsUbRBuJHRCoECLt7x0Jb5IBmr62tx+3dPrNH93Itd7e7xx0ccu+/dmfmzfz2vXmzu3MI1/jAazx+yADIrIBrnMDl2gK4atWqF8+ePXufx+OZFAgEbLG422w2/8SJE7fW1dXVAgBN9f1JOYD6+vqb2trafhUEYZSZYAghA3Pnzp1eXV19xIyeWdmUAli2bNmIY8eOeUVRzDbrmCo/duzYwPz580tqa2vdiegb0UkpgKVLl/7c2to6R3OEYRgoLS2F7OzoPHw+Hxw+fBgURQn7Xl5efqCxsfFWI8EkIpMQAIfDMc1iscxHxFmU0pGxJs7Pz79TkqTQZYfDAVu2bIHx48fH9bOvrw8WL14M+/fvD8nl5uZCT0/Pz1GU/ADQBQBuRPzF7/fvFUXRZxaCKQDFxcUlVqv1NUS8T28iu92uOh4WW7duHSxcuFBPLXR9586dsHz58rBsXl4eeL1ePd1/AGDjwMDA+s7Ozn/1hLXrhgGwLHsbpfQ7RMwzYvwKAAi5RSnlFUUpc7lcZ4z4aQiA0+m8HRF/QMSLMjmlVKV9FAD6hk84bty4OadOnQrNMXXqVGhoaAAVTLzR0dEBlZWV4HZfyHs5OTnQ29sbbQuol7MAYAYiMpE2KaVuWZZniaJ4Wg+CLgCWZR0A8AcAjNaMUUp9iLg6EAg0ud1uIdZ5XVVVtb2lpeVhTS/BJPhnY2Pj1FiBFBUVjcnKylpBKV0yDMTBnp6emR6Ppz8eBF0AhJAmRHw0IvjfZFl+XBRFUY9uZWWlzev1dra3t9+oJxvtupljkGXZ6QDQBACFEbZe5ziuKmEAhJBJiBguRCilXbIsTxZFUTcjaZOqECwWy762trbpsiwb4mCz2aCsrKydZdkFVVVVHYaUAIAQMgURfxvcGmo++BcRJ3Acdy6WjbgrgGXZegAIp2NFUR4UBOErow5FyqkVocfjqQ8Gg9fF07dYLP0FBQU1NTU1hxKZhxBSjYgbIlbsCzzPb0wIACHkCCJOGsyuB3iej1qQ9PrPPaUAPJ2Iw8nSQUBRAeat0VmjDxFCuhFRy7b7OI4rSwQAEkKCiBhaJYqi1AqCoK6I8JColIdycAcA3pWsQC7VDgW6aMbkmWrB8eCgLZnjOPW0iDpibgGn03kDwzDhs1RRlApBELYNAXC++xVEWHmpTidb/57Z974vSdIizW5/f//1XV1d3dHmiQnA4XAQq9XKaUrBYPBel8v1baQRr79brXMNFUbJDjKevZerV/z+/e4fbovwnbhcLvW4vmgkDECiUhHKyvHLGZjRuerrNpxo3tYcPg6DwWAKAMjSXUiVPUadupxyGQCZFZDZApkckBZJ8KjPBd/3tEXNfzmWHLg/rxxusOYnPT+mRRI8T/1wx5FHoDd40WuCcMB2Sw7smfgJ5FpykgohLQCogd96+AHdwL4peR/YEcW6cmYE0gKA6vAbnvdgs+ejmL7Ps8+ChsI1gEn+RJk2AMzctWTKZgBkCqFMIZQphNKiEEpmYjNjK5ME0ykJquVwb6DXzA0cIuvILjRdLqfNCqjpWAdfSEPeopkGUWC7HlrIu5BvNf7mLS0AdAckmHHkIdMBR1PYXFgH99jDbQa6NtMCgAIKzDlaAafls7oOxxNQy+RdJVtNPS+kBQA1qE7/39As7b4kAJNHlkB57kxTNtIGgCmvkyicAZBOx2ASb6xhU5kVkFkBSXgaLCkpKVZ7bbR1N/zboJTOX4ZWrz/Z/PmOCZrviqI4BUFwRdtDMb8NFhQUXGe329XWs9BQFOVJQRA+1v5OZwA1z7/094+te8Zqvvp8vvyTJ09eaFgcNuJ2iBBCehAxV9WhlK7leX7F1QCgYsETfcfdovaqOcBxXMzmbL0WmR0AoHU3HuI47uYwAL80BUE5YDg1XyZBz+kz8MA8rTciNOlejuNmx5o+LgCn0/kkwzCRr3UXcxz3jmbM6+9OeTu7WW51K9bA1zt3hdUURXleEIQ3EgJQWlqaJcvyCQAYM7gNfMFg8Ba32x1qnJD83R8gwFNmnUyV/Jfbv4K1K1+NNN/n8/kKY+1/VVC3T9DpdC5hGOZtzSqlVH26WcTz/C61Rwhk5ScEuCVVQRm1+8mHn8KbGzYNEaeUPsvz/NB/mkmCmizLsp8BQEWkLqV0OwBsav299WDeqNznAOBpxCFNikZ9T0iuv78fXLwbXLwLvm3ZDe1//jXcThPHcY/pGdddAYMGbISQTxHxET2D6XCdUvoFz/NPAEBAzx+jAFQ7DMuyjQDwjJ7RK3mdUtrA8/xStXQx4ocZACF76o8lrFbrKkrp3Yg4wsgkqZahlJ5Xu9kDgcBKt9utNnYbHqYBRFi2OZ3OaYhYRCktZBgmod8FGfZ0mCCldEB950IpPS4Ighq0sUbkRJJgok5eDXqXsgKuhvh0fcwA0EX0Pxf4Dws8WYyVxouxAAAAAElFTkSuQmCC">
+    <style>
+        * {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin: 0;
+        }
+        main {
+            background-color: rgb(240, 242, 245);
+            padding: 0 50px;
+            min-height: 90vh;
+        }
+        header{
+            background-color: #FFFFFF;
+            height: 10vh;
+            padding: 0 50px;
+            color: #1c5b86;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-flex-wrap: nowrap;
+            -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+            -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-align-content: stretch;
+            align-content: stretch;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+        header h2 {
+            margin: 0;
+        }
+        header a{
+            color: #50e0d9;
+            font-size: 26px;
+        }
+        button {
+            height: 30px;
+            width: 100%;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, .5);
+            color: #1c5b86;
+            outline: none;
+            font-size: 14px;
+            text-align: left;
+        }
+        button:hover {
+            cursor: pointer;
+            background-color: rgba(255, 255, 255, .8);
+            transition: background 0.2s ease-out;
+        }
+        .section-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            border-radius: 5px;
+        }
+        .section-content div {
+            padding: 18px;
+            margin: 10px 0;
+            background-color: white;
+            border-radius: 5px;
+        }
+        .section-content div:first-child {
+            display: none;
+        }
+        pre {
+            color: rgba(0, 0, 0, .65);
+        }
+        .add {
+            color: green;
+        }
+        .remove {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Report </h2>
+    <a target="_blank" class="icon" href="https://github.com/">
+        <i aria-label="icon: github" class="anticon anticon-github">
+            <svg viewBox="64 64 896 896" class="" data-icon="github" width="1em" height="1em" fill="currentColor"
+                 aria-hidden="true" focusable="false">
+                <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path>
+            </svg>
+        </i>
+    </a>
+</header>
+
+<main>
