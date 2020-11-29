@@ -21,7 +21,9 @@ ECHO ^<div^>>> niceDiff-report.html
 
 SETLOCAL enabledelayedexpansion
 FOR /F "usebackq tokens=*" %%A IN ("%parent%/diff.txt") DO (
-	SET line=%%A
+	SET line1=%%A
+	SET line2=!line1:^<=^&lt;!
+	SET line=!line2:^>=^&gt;!
 	IF "!line:~0,10!"=="diff --git" (
 	  rem close last code block in previous file
       ECHO ^</div^>>> niceDiff-report.html
